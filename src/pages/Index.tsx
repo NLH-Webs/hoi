@@ -13,6 +13,9 @@ const Index = () => {
       <GiftForm />
       <LivestreamForm />
       <SocialProof />
+      <section className="nlh-lead" id="lien-he">
+        <nlh-contact site="hoi" lang="vi" topics="Câu hỏi cho Nhi|Hợp tác|Truyền thông – báo chí|Khoá học N-Education" />
+      </section>
       <FinalCTA />
     </div>
   );
