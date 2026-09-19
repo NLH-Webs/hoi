@@ -9,6 +9,13 @@
 /* Design system: NLH tokens (src/styles/nlh/nlh-tokens.css). No colours are defined here. */
 
 @layer base {
+  :root {
+    /* Restored after the token migration dropped them; now built from NLH tokens. */
+    --gradient-hero: linear-gradient(135deg, var(--action), var(--action-ink));
+    --gradient-button: linear-gradient(135deg, var(--action), var(--action-ink));
+    --gradient-soft: linear-gradient(180deg, var(--bg-base), var(--bg-sunken));
+  }
+
   * {
     @apply border-border;
   }

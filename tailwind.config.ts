@@ -73,6 +73,16 @@ export default {
 				green: stateScale('--state-ok'),
 				yellow: stateScale('--state-warn'), amber: stateScale('--state-warn'), orange: stateScale('--state-warn')
 			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-button': 'var(--gradient-button)',
+				'gradient-soft': 'var(--gradient-soft)'
+			},
+			boxShadow: {
+				soft: 'var(--elev-float)',
+				button: 'var(--elev-float)',
+				card: 'var(--elev-float)'
+			},
 			borderRadius: {
 				lg: 'var(--r-md)',
 				md: 'var(--r-sm)',
